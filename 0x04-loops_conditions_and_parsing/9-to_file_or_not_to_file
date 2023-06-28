@@ -11,7 +11,7 @@ then
     echo "school file is empty"
   fi
 
-  fi [ -f "School" ]
+  if [ -f "School" ]
   then
     echo "school is a regular file"
   fi
